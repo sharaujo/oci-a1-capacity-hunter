@@ -500,31 +500,9 @@ Isso evita transformar o projeto em um loop cego.
 - **[Arquitetura](docs/ARQUITETURA.md)**
 - **[Troubleshooting](docs/TROUBLESHOOTING.md)**
 
----
-
-# Roadmap
-
-- [ ] backoff exponencial opcional;
-- [ ] notificações via Discord;
-- [ ] notificações via Slack;
-- [ ] ntfy;
-- [ ] métricas Prometheus;
-- [ ] container/Docker;
-- [ ] múltiplas configurações Terraform;
-- [ ] múltiplos Availability Domains;
-- [ ] integração opcional com OCI Capacity Report;
-- [ ] testes automatizados do shell.
 
 ---
 
-# Autor
-
-**Schubert Araujo**
-
-Cloud Infrastructure · DevOps · Automation
-
-- GitHub: [github.com/sharaujo](https://github.com/sharaujo)
-- LinkedIn: [linkedin.com/in/sharaujo](https://www.linkedin.com/in/sharaujo/)
 
 Contribuições, issues e pull requests são bem-vindos.
 
