@@ -1,0 +1,25 @@
+# Arquivo apenas de referência.
+#
+# Você NÃO precisa substituir estes campos manualmente se usar:
+#   sudo ./install.sh
+#
+# O instalador detecta o usuário Linux, o diretório do projeto e o diretório
+# Terraform automaticamente.
+
+[Unit]
+Description=XUH Hunter - OCI A1 Capacity Hunter
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=COLOQUE_SEU_USUARIO_LINUX_AQUI
+WorkingDirectory=COLOQUE_O_DIRETORIO_DO_PROJETO_AQUI
+Environment=XUH_TERRAFORM_DIR=COLOQUE_O_DIRETORIO_TERRAFORM_AQUI
+EnvironmentFile=-/etc/xuh-hunter.env
+ExecStart=COLOQUE_O_DIRETORIO_DO_PROJETO_AQUI/xuh-hunter.sh
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
