@@ -1,0 +1,34 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+
+# Segredos / credenciais
+*.pem
+*.key
+*.ppk
+.env
+*.env
+.oci/
+terraform.tfvars
+*.auto.tfvars
+
+# Logs
+xuh-hunter.log
+*.log
+
+# Sistema / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Stacks baixadas / artefatos locais
+*.zip
+
+# Backups
+*.bak
+*.backup
